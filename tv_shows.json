@@ -1,0 +1,1602 @@
+[
+    {
+        "id": 1,
+        "name": "Kirby Buckets",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2014-10-20",
+        "network": "Disney XD"
+    },
+    {
+        "id": 2,
+        "name": "Downton Abbey",
+        "genre": "Drama, Family, Romance",
+        "status": "Ended",
+        "premiered": "2010-09-26",
+        "network": "ITV1"
+    },
+    {
+        "id": 3,
+        "name": "Girl Meets World",
+        "genre": "Drama, Comedy, Family",
+        "status": "Ended",
+        "premiered": "2014-06-27",
+        "network": "Disney Channel"
+    },
+    {
+        "id": 4,
+        "name": "Hell's Kitchen",
+        "genre": "Food",
+        "status": "Running",
+        "premiered": "2005-05-30",
+        "network": "FOX"
+    },
+    {
+        "id": 5,
+        "name": "World Series of Poker",
+        "genre": "Sports",
+        "status": "Running",
+        "premiered": "2006-08-22",
+        "network": null
+    },
+    {
+        "id": 6,
+        "name": "Anthony Bourdain: Parts Unknown",
+        "genre": "Food, Travel",
+        "status": "Ended",
+        "premiered": "2013-04-14",
+        "network": "CNN"
+    },
+    {
+        "id": 7,
+        "name": "Comic Book Men",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2012-02-12",
+        "network": "AMC"
+    },
+    {
+        "id": 8,
+        "name": "Key & Peele",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2012-01-31",
+        "network": "Comedy Central"
+    },
+    {
+        "id": 9,
+        "name": "Glue",
+        "genre": "Drama",
+        "status": "Ended",
+        "premiered": "2014-09-15",
+        "network": "E4"
+    },
+    {
+        "id": 10,
+        "name": "Southern Justice",
+        "genre": "Crime",
+        "status": "Ended",
+        "premiered": "2014-04-15",
+        "network": "National Geographic"
+    },
+    {
+        "id": 11,
+        "name": "Tosh.0",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2009-06-04",
+        "network": "Comedy Central"
+    },
+    {
+        "id": 12,
+        "name": "The Soup",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2004-07-30",
+        "network": "E!"
+    },
+    {
+        "id": 13,
+        "name": "The Driver",
+        "genre": "Drama, Crime",
+        "status": "Ended",
+        "premiered": "2014-09-23",
+        "network": "BBC One"
+    },
+    {
+        "id": 14,
+        "name": "Last Week Tonight with John Oliver",
+        "genre": "Comedy",
+        "status": "Running",
+        "premiered": "2014-04-27",
+        "network": "HBO"
+    },
+    {
+        "id": 15,
+        "name": "The Late Show with David Letterman",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "1993-08-30",
+        "network": "CBS"
+    },
+    {
+        "id": 16,
+        "name": "Mount Pleasant",
+        "genre": "Drama, Comedy",
+        "status": "Ended",
+        "premiered": "2011-08-24",
+        "network": "Sky Showcase"
+    },
+    {
+        "id": 17,
+        "name": "Lovesick",
+        "genre": "Comedy, Romance",
+        "status": "Ended",
+        "premiered": "2014-10-02",
+        "network": null
+    },
+    {
+        "id": 18,
+        "name": "Package Deal",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2013-06-18",
+        "network": "Citytv"
+    },
+    {
+        "id": 19,
+        "name": "Peaky Blinders",
+        "genre": "Drama, Crime, History",
+        "status": "Ended",
+        "premiered": "2013-09-12",
+        "network": "BBC One"
+    },
+    {
+        "id": 20,
+        "name": "The League",
+        "genre": "Comedy, Sports",
+        "status": "Ended",
+        "premiered": "2009-10-29",
+        "network": "FXX"
+    },
+    {
+        "id": 21,
+        "name": "Saving Hope",
+        "genre": "Drama, Fantasy, Medical",
+        "status": "Ended",
+        "premiered": "2012-06-07",
+        "network": "CTV"
+    },
+    {
+        "id": 22,
+        "name": "Talking Dead",
+        "genre": "",
+        "status": "Running",
+        "premiered": "2011-10-17",
+        "network": "AMC"
+    },
+    {
+        "id": 23,
+        "name": "Black Dynamite",
+        "genre": "Comedy, Action",
+        "status": "Ended",
+        "premiered": "2012-07-15",
+        "network": "Adult Swim"
+    },
+    {
+        "id": 24,
+        "name": "Bad Education",
+        "genre": "Comedy",
+        "status": "To Be Determined",
+        "premiered": "2012-08-14",
+        "network": null
+    },
+    {
+        "id": 25,
+        "name": "Ali G: Rezurection",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2014-02-26",
+        "network": "FXX"
+    },
+    {
+        "id": 26,
+        "name": "New Tricks",
+        "genre": "Drama, Comedy, Crime",
+        "status": "Ended",
+        "premiered": "2004-04-01",
+        "network": "BBC One"
+    },
+    {
+        "id": 27,
+        "name": "Brickleberry",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2012-09-25",
+        "network": "Comedy Central"
+    },
+    {
+        "id": 28,
+        "name": "Face Off",
+        "genre": "",
+        "status": "Ended",
+        "premiered": "2011-01-26",
+        "network": "Syfy"
+    },
+    {
+        "id": 29,
+        "name": "Real Time with Bill Maher",
+        "genre": "",
+        "status": "Running",
+        "premiered": "2003-02-21",
+        "network": "HBO"
+    },
+    {
+        "id": 30,
+        "name": "Franklin & Bash",
+        "genre": "Drama, Comedy, Legal",
+        "status": "Ended",
+        "premiered": "2011-06-01",
+        "network": "TNT"
+    },
+    {
+        "id": 31,
+        "name": "Mock the Week",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2005-06-05",
+        "network": "BBC Two"
+    },
+    {
+        "id": 32,
+        "name": "Awkward.",
+        "genre": "Drama, Comedy, Romance",
+        "status": "Ended",
+        "premiered": "2011-07-19",
+        "network": "MTV"
+    },
+    {
+        "id": 33,
+        "name": "Faking It",
+        "genre": "Comedy, Romance",
+        "status": "Ended",
+        "premiered": "2014-04-22",
+        "network": "MTV"
+    },
+    {
+        "id": 34,
+        "name": "Mr. Selfridge",
+        "genre": "Drama",
+        "status": "Ended",
+        "premiered": "2013-01-06",
+        "network": "ITV1"
+    },
+    {
+        "id": 35,
+        "name": "Signed, Sealed, Delivered",
+        "genre": "Romance, Mystery",
+        "status": "Running",
+        "premiered": "2013-10-12",
+        "network": "Hallmark Movies & Mysteries"
+    },
+    {
+        "id": 36,
+        "name": "Happy Valley",
+        "genre": "Drama, Crime",
+        "status": "Ended",
+        "premiered": "2014-04-29",
+        "network": "BBC One"
+    },
+    {
+        "id": 37,
+        "name": "Kroll Show",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2013-01-16",
+        "network": "Comedy Central"
+    },
+    {
+        "id": 38,
+        "name": "American Idol",
+        "genre": "Music",
+        "status": "Running",
+        "premiered": "2002-06-11",
+        "network": "ABC"
+    },
+    {
+        "id": 39,
+        "name": "America's Got Talent",
+        "genre": "Music",
+        "status": "Running",
+        "premiered": "2006-06-21",
+        "network": "NBC"
+    },
+    {
+        "id": 40,
+        "name": "Adventure Time",
+        "genre": "Comedy, Adventure, Fantasy",
+        "status": "Ended",
+        "premiered": "2008-12-07",
+        "network": "Cartoon Network"
+    },
+    {
+        "id": 41,
+        "name": "Motive",
+        "genre": "Drama, Crime, Mystery",
+        "status": "Ended",
+        "premiered": "2013-02-03",
+        "network": "CTV"
+    },
+    {
+        "id": 42,
+        "name": "The NEW Celebrity Apprentice",
+        "genre": "",
+        "status": "Ended",
+        "premiered": "2008-01-03",
+        "network": "NBC"
+    },
+    {
+        "id": 43,
+        "name": "Newswipe",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2009-03-25",
+        "network": "BBC Four"
+    },
+    {
+        "id": 44,
+        "name": "The Night Shift",
+        "genre": "Drama, Action, Medical",
+        "status": "Ended",
+        "premiered": "2014-05-27",
+        "network": "NBC"
+    },
+    {
+        "id": 45,
+        "name": "Top Chef",
+        "genre": "Food",
+        "status": "Running",
+        "premiered": "2006-03-08",
+        "network": "Bravo"
+    },
+    {
+        "id": 46,
+        "name": "Top Gear",
+        "genre": "",
+        "status": "Ended",
+        "premiered": "2010-11-21",
+        "network": "History"
+    },
+    {
+        "id": 47,
+        "name": "Undateable",
+        "genre": "Comedy, Romance",
+        "status": "Ended",
+        "premiered": "2014-05-29",
+        "network": "NBC"
+    },
+    {
+        "id": 48,
+        "name": "Chasing Life",
+        "genre": "Drama, Romance, Medical",
+        "status": "Ended",
+        "premiered": "2014-06-10",
+        "network": "Freeform"
+    },
+    {
+        "id": 49,
+        "name": "Power",
+        "genre": "Drama, Crime",
+        "status": "Ended",
+        "premiered": "2014-06-07",
+        "network": "STARZ"
+    },
+    {
+        "id": 50,
+        "name": "Murder in the First",
+        "genre": "Drama, Crime, Mystery",
+        "status": "Ended",
+        "premiered": "2014-06-09",
+        "network": "TNT"
+    },
+    {
+        "id": 51,
+        "name": "Hart of Dixie",
+        "genre": "Drama, Comedy, Romance",
+        "status": "Ended",
+        "premiered": "2011-09-26",
+        "network": "The CW"
+    },
+    {
+        "id": 52,
+        "name": "Trailer Park Boys",
+        "genre": "Comedy, Crime",
+        "status": "Ended",
+        "premiered": "2001-04-22",
+        "network": null
+    },
+    {
+        "id": 53,
+        "name": "Deadbeat",
+        "genre": "Comedy, Supernatural",
+        "status": "Ended",
+        "premiered": "2014-04-09",
+        "network": null
+    },
+    {
+        "id": 54,
+        "name": "The Venture Bros.",
+        "genre": "Comedy, Adventure",
+        "status": "Ended",
+        "premiered": "2003-02-16",
+        "network": "Adult Swim"
+    },
+    {
+        "id": 55,
+        "name": "Black Mirror",
+        "genre": "Drama, Science-Fiction, Thriller",
+        "status": "Running",
+        "premiered": "2011-12-04",
+        "network": null
+    },
+    {
+        "id": 56,
+        "name": "Broadchurch",
+        "genre": "Drama, Crime, Mystery",
+        "status": "Ended",
+        "premiered": "2013-03-04",
+        "network": "ITV1"
+    },
+    {
+        "id": 57,
+        "name": "Bluestone 42",
+        "genre": "Drama, Comedy, War",
+        "status": "Ended",
+        "premiered": "2013-03-05",
+        "network": "BBC Three"
+    },
+    {
+        "id": 58,
+        "name": "Matador",
+        "genre": "Drama, Action",
+        "status": "Ended",
+        "premiered": "2014-07-15",
+        "network": "El Rey Network"
+    },
+    {
+        "id": 59,
+        "name": "Rogue",
+        "genre": "Action, Crime",
+        "status": "Ended",
+        "premiered": "2013-04-03",
+        "network": "Audience Network"
+    },
+    {
+        "id": 60,
+        "name": "Married",
+        "genre": "Drama, Comedy, Romance",
+        "status": "Ended",
+        "premiered": "2014-07-17",
+        "network": "FX"
+    },
+    {
+        "id": 61,
+        "name": "Satisfaction",
+        "genre": "Drama, Comedy, Romance",
+        "status": "Ended",
+        "premiered": "2014-07-17",
+        "network": "USA Network"
+    },
+    {
+        "id": 62,
+        "name": "You're the Worst",
+        "genre": "Drama, Comedy, Romance",
+        "status": "Ended",
+        "premiered": "2014-07-17",
+        "network": "FXX"
+    },
+    {
+        "id": 63,
+        "name": "Plebs",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2013-03-25",
+        "network": "ITV2"
+    },
+    {
+        "id": 64,
+        "name": "VICE",
+        "genre": "Drama, Crime",
+        "status": "Ended",
+        "premiered": "2013-04-05",
+        "network": "Showtime"
+    },
+    {
+        "id": 65,
+        "name": "Archer",
+        "genre": "Comedy, Action, Espionage",
+        "status": "Ended",
+        "premiered": "2009-09-17",
+        "network": "FXX"
+    },
+    {
+        "id": 66,
+        "name": "The Missing",
+        "genre": "Drama, Crime, Thriller",
+        "status": "Ended",
+        "premiered": "2014-10-28",
+        "network": "BBC One"
+    },
+    {
+        "id": 67,
+        "name": "Vicious",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2013-04-29",
+        "network": "ITV1"
+    },
+    {
+        "id": 68,
+        "name": "Community",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2009-09-17",
+        "network": null
+    },
+    {
+        "id": 69,
+        "name": "Cougar Town",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2009-09-23",
+        "network": "TBS"
+    },
+    {
+        "id": 70,
+        "name": "The Fall",
+        "genre": "Drama, Crime, Thriller",
+        "status": "Ended",
+        "premiered": "2013-05-13",
+        "network": "BBC Two"
+    },
+    {
+        "id": 71,
+        "name": "Arrested Development",
+        "genre": "Comedy, Family",
+        "status": "Ended",
+        "premiered": "2003-11-02",
+        "network": null
+    },
+    {
+        "id": 72,
+        "name": "Hit the Floor",
+        "genre": "Drama, Romance, Sports",
+        "status": "Ended",
+        "premiered": "2013-05-27",
+        "network": "BET"
+    },
+    {
+        "id": 73,
+        "name": "White Collar",
+        "genre": "Drama, Comedy, Crime",
+        "status": "Ended",
+        "premiered": "2009-10-23",
+        "network": "USA Network"
+    },
+    {
+        "id": 74,
+        "name": "MasterChef",
+        "genre": "Food",
+        "status": "Running",
+        "premiered": "2010-07-27",
+        "network": "FOX"
+    },
+    {
+        "id": 75,
+        "name": "Being Mary Jane",
+        "genre": "Drama, Family",
+        "status": "Ended",
+        "premiered": "2013-07-02",
+        "network": "BET"
+    },
+    {
+        "id": 76,
+        "name": "Undercover Boss",
+        "genre": "",
+        "status": "Ended",
+        "premiered": "2010-02-07",
+        "network": "CBS"
+    },
+    {
+        "id": 77,
+        "name": "Inside Amy Schumer",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2013-04-30",
+        "network": null
+    },
+    {
+        "id": 78,
+        "name": "Midsomer Murders",
+        "genre": "Drama, Crime, Mystery",
+        "status": "Running",
+        "premiered": "1998-03-22",
+        "network": null
+    },
+    {
+        "id": 79,
+        "name": "Shark Tank",
+        "genre": "",
+        "status": "Running",
+        "premiered": "2009-08-09",
+        "network": "ABC"
+    },
+    {
+        "id": 80,
+        "name": "On the Menu",
+        "genre": "Food",
+        "status": "Ended",
+        "premiered": "2014-10-03",
+        "network": "TNT"
+    },
+    {
+        "id": 81,
+        "name": "Deal With It",
+        "genre": "",
+        "status": "Ended",
+        "premiered": "2013-07-17",
+        "network": "TBS"
+    },
+    {
+        "id": 82,
+        "name": "Alpha House",
+        "genre": "Drama, Comedy",
+        "status": "Ended",
+        "premiered": "2013-04-19",
+        "network": null
+    },
+    {
+        "id": 83,
+        "name": "The Game",
+        "genre": "Drama, Comedy, Sports",
+        "status": "Ended",
+        "premiered": "2006-10-01",
+        "network": null
+    },
+    {
+        "id": 84,
+        "name": "Drunk History",
+        "genre": "Comedy, History",
+        "status": "Ended",
+        "premiered": "2013-07-09",
+        "network": "Comedy Central"
+    },
+    {
+        "id": 85,
+        "name": "Sherlock",
+        "genre": "Drama, Crime, Mystery",
+        "status": "Ended",
+        "premiered": "2010-07-25",
+        "network": "BBC One"
+    },
+    {
+        "id": 86,
+        "name": "Marvel's Agent Carter",
+        "genre": "Action, Adventure, Science-Fiction",
+        "status": "Ended",
+        "premiered": "2015-01-06",
+        "network": "ABC"
+    },
+    {
+        "id": 87,
+        "name": "Ramsay's Costa Del Nightmares",
+        "genre": "Food",
+        "status": "Ended",
+        "premiered": "2014-09-23",
+        "network": "Channel 4"
+    },
+    {
+        "id": 88,
+        "name": "Secrets and Lies",
+        "genre": "Drama, Crime, Thriller",
+        "status": "Ended",
+        "premiered": "2015-03-01",
+        "network": "ABC"
+    },
+    {
+        "id": 89,
+        "name": "American Crime",
+        "genre": "Drama, Crime",
+        "status": "Ended",
+        "premiered": "2015-03-05",
+        "network": "ABC"
+    },
+    {
+        "id": 90,
+        "name": "The Librarians",
+        "genre": "Action, Adventure, Supernatural",
+        "status": "Ended",
+        "premiered": "2014-12-07",
+        "network": "TNT"
+    },
+    {
+        "id": 91,
+        "name": "Aquarius",
+        "genre": "Drama, Crime",
+        "status": "Ended",
+        "premiered": "2015-05-28",
+        "network": "NBC"
+    },
+    {
+        "id": 92,
+        "name": "Louie",
+        "genre": "Drama, Comedy",
+        "status": "Ended",
+        "premiered": "2010-06-29",
+        "network": "FX"
+    },
+    {
+        "id": 93,
+        "name": "Atlantis",
+        "genre": "Drama, Adventure, Fantasy",
+        "status": "Ended",
+        "premiered": "2013-09-28",
+        "network": "BBC One"
+    },
+    {
+        "id": 94,
+        "name": "Rizzoli & Isles",
+        "genre": "Drama, Crime",
+        "status": "Ended",
+        "premiered": "2010-07-12",
+        "network": "TNT"
+    },
+    {
+        "id": 95,
+        "name": "Covert Affairs",
+        "genre": "Drama, Action, Crime",
+        "status": "Ended",
+        "premiered": "2010-07-13",
+        "network": "USA Network"
+    },
+    {
+        "id": 96,
+        "name": "Hot in Cleveland",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2010-06-16",
+        "network": "TV Land"
+    },
+    {
+        "id": 97,
+        "name": "It's Always Sunny in Philadelphia",
+        "genre": "Comedy",
+        "status": "Running",
+        "premiered": "2005-08-04",
+        "network": "FXX"
+    },
+    {
+        "id": 98,
+        "name": "Melissa & Joey",
+        "genre": "Comedy, Family",
+        "status": "Ended",
+        "premiered": "2010-08-17",
+        "network": "Freeform"
+    },
+    {
+        "id": 99,
+        "name": "The Wrong Mans",
+        "genre": "Comedy, Crime, Thriller",
+        "status": "Ended",
+        "premiered": "2013-09-24",
+        "network": "BBC Two"
+    },
+    {
+        "id": 100,
+        "name": "Last Comic Standing",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2003-06-10",
+        "network": "NBC"
+    },
+    {
+        "id": 101,
+        "name": "Baby Daddy",
+        "genre": "Comedy, Family",
+        "status": "Ended",
+        "premiered": "2012-06-20",
+        "network": "Freeform"
+    },
+    {
+        "id": 102,
+        "name": "The Exes",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2011-11-30",
+        "network": "TV Land"
+    },
+    {
+        "id": 103,
+        "name": "Line of Duty",
+        "genre": "Drama, Crime, Thriller",
+        "status": "Ended",
+        "premiered": "2012-06-26",
+        "network": "BBC One"
+    },
+    {
+        "id": 104,
+        "name": "Ground Floor",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2013-11-14",
+        "network": "TBS"
+    },
+    {
+        "id": 105,
+        "name": "Mike & Molly",
+        "genre": "Comedy, Family",
+        "status": "Ended",
+        "premiered": "2010-09-20",
+        "network": "CBS"
+    },
+    {
+        "id": 106,
+        "name": "Man Down",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2013-10-18",
+        "network": "Channel 4"
+    },
+    {
+        "id": 107,
+        "name": "Perception",
+        "genre": "Drama, Crime",
+        "status": "Ended",
+        "premiered": "2012-07-09",
+        "network": "TNT"
+    },
+    {
+        "id": 108,
+        "name": "Spartacus: Gods of the Arena",
+        "genre": "Drama, Action, History",
+        "status": "Ended",
+        "premiered": "2011-01-21",
+        "network": "STARZ"
+    },
+    {
+        "id": 109,
+        "name": "TripTank",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2014-04-02",
+        "network": "Comedy Central"
+    },
+    {
+        "id": 110,
+        "name": "Ripper Street",
+        "genre": "Drama, Crime, Mystery",
+        "status": "Ended",
+        "premiered": "2012-12-30",
+        "network": "BBC Two"
+    },
+    {
+        "id": 111,
+        "name": "Saturday Night Live",
+        "genre": "Comedy, Music",
+        "status": "Running",
+        "premiered": "1975-10-11",
+        "network": "NBC"
+    },
+    {
+        "id": 112,
+        "name": "Switched at Birth",
+        "genre": "Drama, Family",
+        "status": "Ended",
+        "premiered": "2011-06-06",
+        "network": "Freeform"
+    },
+    {
+        "id": 113,
+        "name": "Late Night with Seth Meyers",
+        "genre": "Comedy",
+        "status": "Running",
+        "premiered": "2014-02-24",
+        "network": "NBC"
+    },
+    {
+        "id": 114,
+        "name": "Single Ladies",
+        "genre": "Drama, Romance",
+        "status": "Ended",
+        "premiered": "2011-05-30",
+        "network": "Centric"
+    },
+    {
+        "id": 115,
+        "name": "The After",
+        "genre": "Drama, Science-Fiction, Mystery",
+        "status": "Ended",
+        "premiered": "2014-02-06",
+        "network": null
+    },
+    {
+        "id": 116,
+        "name": "Sirens",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2014-03-06",
+        "network": "USA Network"
+    },
+    {
+        "id": 117,
+        "name": "Six Feet Under",
+        "genre": "Drama, Comedy",
+        "status": "Ended",
+        "premiered": "2001-06-03",
+        "network": "HBO"
+    },
+    {
+        "id": 118,
+        "name": "Red Dwarf",
+        "genre": "Comedy, Science-Fiction",
+        "status": "Ended",
+        "premiered": "1988-02-15",
+        "network": "U&Dave"
+    },
+    {
+        "id": 119,
+        "name": "Wizards vs Aliens",
+        "genre": "Fantasy, Science-Fiction",
+        "status": "Ended",
+        "premiered": "2012-10-29",
+        "network": "CBBC"
+    },
+    {
+        "id": 120,
+        "name": "Workaholics",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2011-04-06",
+        "network": "Comedy Central"
+    },
+    {
+        "id": 121,
+        "name": "The Red Road",
+        "genre": "Drama, Crime, Family",
+        "status": "Ended",
+        "premiered": "2014-02-27",
+        "network": "SundanceTV"
+    },
+    {
+        "id": 122,
+        "name": "See Dad Run",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2012-10-06",
+        "network": "nick@nite"
+    },
+    {
+        "id": 123,
+        "name": "Moone Boy",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2012-09-14",
+        "network": "Sky Showcase"
+    },
+    {
+        "id": 124,
+        "name": "Inside No. 9",
+        "genre": "Comedy, Thriller, Supernatural",
+        "status": "Ended",
+        "premiered": "2014-02-05",
+        "network": "BBC Two"
+    },
+    {
+        "id": 125,
+        "name": "Broad City",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2014-01-22",
+        "network": "Comedy Central"
+    },
+    {
+        "id": 126,
+        "name": "Portlandia",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2011-01-21",
+        "network": "IFC"
+    },
+    {
+        "id": 127,
+        "name": "The Musketeers",
+        "genre": "Drama, Action, Adventure",
+        "status": "Ended",
+        "premiered": "2014-01-19",
+        "network": "BBC One"
+    },
+    {
+        "id": 128,
+        "name": "Citizen Khan",
+        "genre": "Comedy, Family",
+        "status": "Ended",
+        "premiered": "2012-08-27",
+        "network": "BBC One"
+    },
+    {
+        "id": 129,
+        "name": "Mythbusters",
+        "genre": "",
+        "status": "Ended",
+        "premiered": "2003-01-23",
+        "network": "Science"
+    },
+    {
+        "id": 130,
+        "name": "Birds of a Feather",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "1989-10-16",
+        "network": "ITV1"
+    },
+    {
+        "id": 131,
+        "name": "Aqua Teen Hunger Force",
+        "genre": "Comedy, Action, Adventure",
+        "status": "Ended",
+        "premiered": "2000-12-30",
+        "network": "Adult Swim"
+    },
+    {
+        "id": 132,
+        "name": "Peep Show",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2003-09-19",
+        "network": "Channel 4"
+    },
+    {
+        "id": 133,
+        "name": "Major Crimes",
+        "genre": "Drama, Action, Crime",
+        "status": "Ended",
+        "premiered": "2012-08-13",
+        "network": "TNT"
+    },
+    {
+        "id": 134,
+        "name": "Mad Men",
+        "genre": "Drama",
+        "status": "Ended",
+        "premiered": "2007-07-19",
+        "network": "AMC"
+    },
+    {
+        "id": 135,
+        "name": "Yonderland",
+        "genre": "Comedy, Fantasy",
+        "status": "Ended",
+        "premiered": "2013-11-10",
+        "network": "Sky Showcase"
+    },
+    {
+        "id": 136,
+        "name": "Rookie Blue",
+        "genre": "Drama, Action, Crime",
+        "status": "Ended",
+        "premiered": "2010-06-24",
+        "network": "Global"
+    },
+    {
+        "id": 137,
+        "name": "The Late Late Show with Craig Ferguson",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2005-01-03",
+        "network": "CBS"
+    },
+    {
+        "id": 138,
+        "name": "Last Call with Carson Daly",
+        "genre": "",
+        "status": "Ended",
+        "premiered": "2002-01-08",
+        "network": "NBC"
+    },
+    {
+        "id": 139,
+        "name": "Life Is Toff",
+        "genre": "",
+        "status": "Ended",
+        "premiered": "2014-10-28",
+        "network": "BBC Three"
+    },
+    {
+        "id": 140,
+        "name": "Hunted",
+        "genre": "Drama, Action, Thriller",
+        "status": "Ended",
+        "premiered": "2012-10-04",
+        "network": "BBC One"
+    },
+    {
+        "id": 141,
+        "name": "Video Game High School",
+        "genre": "Comedy, Action, Science-Fiction",
+        "status": "Ended",
+        "premiered": "2012-05-11",
+        "network": null
+    },
+    {
+        "id": 142,
+        "name": "Call the Midwife",
+        "genre": "Drama, Medical",
+        "status": "Running",
+        "premiered": "2012-01-15",
+        "network": "BBC One"
+    },
+    {
+        "id": 143,
+        "name": "Longmire",
+        "genre": "Drama, Thriller, Western",
+        "status": "Ended",
+        "premiered": "2012-06-03",
+        "network": null
+    },
+    {
+        "id": 144,
+        "name": "Gravity Falls",
+        "genre": "Adventure, Mystery, Supernatural",
+        "status": "Ended",
+        "premiered": "2012-06-15",
+        "network": "Disney XD"
+    },
+    {
+        "id": 145,
+        "name": "Don't Trust the B---- in Apartment 23",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2012-04-11",
+        "network": "ABC"
+    },
+    {
+        "id": 146,
+        "name": "Duck Dynasty",
+        "genre": "Comedy, Adventure",
+        "status": "Ended",
+        "premiered": "2012-03-21",
+        "network": "A&E"
+    },
+    {
+        "id": 147,
+        "name": "The Client List",
+        "genre": "Drama, Romance",
+        "status": "Ended",
+        "premiered": "2012-04-08",
+        "network": "Lifetime"
+    },
+    {
+        "id": 148,
+        "name": "Copper",
+        "genre": "Drama, Crime",
+        "status": "Ended",
+        "premiered": "2012-08-19",
+        "network": "BBC America"
+    },
+    {
+        "id": 149,
+        "name": "Smash",
+        "genre": "Drama",
+        "status": "Ended",
+        "premiered": "2012-02-06",
+        "network": "NBC"
+    },
+    {
+        "id": 150,
+        "name": "A Young Doctor's Notebook",
+        "genre": "Drama, Comedy",
+        "status": "Ended",
+        "premiered": "2012-12-06",
+        "network": "Sky Arts"
+    },
+    {
+        "id": 151,
+        "name": "Touch",
+        "genre": "Drama, Science-Fiction, Mystery",
+        "status": "Ended",
+        "premiered": "2012-01-25",
+        "network": "FOX"
+    },
+    {
+        "id": 152,
+        "name": "Magic City",
+        "genre": "Drama, Crime, Mystery",
+        "status": "Ended",
+        "premiered": "2012-03-30",
+        "network": "STARZ"
+    },
+    {
+        "id": 153,
+        "name": "Derek",
+        "genre": "Drama, Comedy",
+        "status": "Ended",
+        "premiered": "2012-04-12",
+        "network": "Channel 4"
+    },
+    {
+        "id": 154,
+        "name": "Men at Work",
+        "genre": "Drama, Comedy",
+        "status": "Ended",
+        "premiered": "2012-05-24",
+        "network": "TBS"
+    },
+    {
+        "id": 155,
+        "name": "Mortal Kombat: Legacy",
+        "genre": "Action, Adventure, Fantasy",
+        "status": "Ended",
+        "premiered": "2011-04-12",
+        "network": null
+    },
+    {
+        "id": 156,
+        "name": "Jane by Design",
+        "genre": "Drama, Comedy",
+        "status": "Ended",
+        "premiered": "2012-01-03",
+        "network": "Freeform"
+    },
+    {
+        "id": 157,
+        "name": "Invader ZIM",
+        "genre": "Children",
+        "status": "Ended",
+        "premiered": "2001-03-30",
+        "network": "Nickelodeon"
+    },
+    {
+        "id": 158,
+        "name": "Rival Survival",
+        "genre": "",
+        "status": "Ended",
+        "premiered": null,
+        "network": "Discovery"
+    },
+    {
+        "id": 159,
+        "name": "The Cape",
+        "genre": "Drama, Crime, Supernatural",
+        "status": "Ended",
+        "premiered": "2011-01-09",
+        "network": "NBC"
+    },
+    {
+        "id": 160,
+        "name": "Fairly Legal",
+        "genre": "Drama",
+        "status": "Ended",
+        "premiered": "2011-01-20",
+        "network": "USA Network"
+    },
+    {
+        "id": 161,
+        "name": "Whitney",
+        "genre": "Comedy, Romance",
+        "status": "Ended",
+        "premiered": "2011-09-22",
+        "network": "NBC"
+    },
+    {
+        "id": 162,
+        "name": "Duckman: Private Dick/Family Man",
+        "genre": "Comedy, Crime",
+        "status": "Ended",
+        "premiered": "1994-03-05",
+        "network": "USA Network"
+    },
+    {
+        "id": 163,
+        "name": "Olive Kitteridge",
+        "genre": "Drama",
+        "status": "Ended",
+        "premiered": "2014-11-02",
+        "network": "HBO"
+    },
+    {
+        "id": 164,
+        "name": "Are You the One?",
+        "genre": "Romance",
+        "status": "Ended",
+        "premiered": "2014-01-21",
+        "network": null
+    },
+    {
+        "id": 165,
+        "name": "MasterChef Junior",
+        "genre": "Children, Food",
+        "status": "Running",
+        "premiered": "2013-09-27",
+        "network": "FOX"
+    },
+    {
+        "id": 166,
+        "name": "Chrisley Knows Best",
+        "genre": "Comedy, Family",
+        "status": "Ended",
+        "premiered": "2014-03-11",
+        "network": "USA Network"
+    },
+    {
+        "id": 167,
+        "name": "Snooki & JWoww",
+        "genre": "",
+        "status": "Ended",
+        "premiered": "2012-06-21",
+        "network": "MTV"
+    },
+    {
+        "id": 168,
+        "name": "Slednecks",
+        "genre": "",
+        "status": "Ended",
+        "premiered": "2014-10-30",
+        "network": "MTV"
+    },
+    {
+        "id": 169,
+        "name": "Rugrats",
+        "genre": "Comedy, Children",
+        "status": "Ended",
+        "premiered": "1991-08-11",
+        "network": "Nickelodeon"
+    },
+    {
+        "id": 170,
+        "name": "A Gifted Man",
+        "genre": "Drama, Fantasy, Medical",
+        "status": "Ended",
+        "premiered": "2011-09-23",
+        "network": "CBS"
+    },
+    {
+        "id": 171,
+        "name": "Life's Too Short",
+        "genre": "Comedy",
+        "status": "Ended",
+        "premiered": "2011-11-10",
+        "network": "BBC Two"
+    },
+    {
+        "id": 172,
+        "name": "Kourtney & Khloe Take the Hamptons",
+        "genre": "",
+        "status": "Ended",
+        "premiered": "2014-11-02",
+        "network": "E!"
+    },
+    {
+        "id": 173,
+        "name": "The Passing Bells",
+        "genre": "Drama, War, History",
+        "status": "Ended",
+        "premiered": "2014-11-03",
+        "network": "BBC One"
+    },
+    {
+        "id": 174,
+        "name": "The People Remember",
+        "genre": "History",
+        "status": "Ended",
+        "premiered": "2014-11-03",
+        "network": "BBC One"
+    },
+    {
+        "id": 175,
+        "name": "Buffy the Vampire Slayer",
+        "genre": "Drama, Action, Supernatural",
+        "status": "Ended",
+        "premiered": "1997-03-10",
+        "network": "UPN"
+    },
+    {
+        "id": 176,
+        "name": "Angel",
+        "genre": "Drama, Action, Supernatural",
+        "status": "Ended",
+        "premiered": "1999-10-05",
+        "network": "The WB"
+    },
+    {
+        "id": 177,
+        "name": "Farscape",
+        "genre": "Action, Adventure, Science-Fiction",
+        "status": "Ended",
+        "premiered": "1999-03-19",
+        "network": "Syfy"
+    },
+    {
+        "id": 178,
+        "name": "The X-Files",
+        "genre": "Drama, Crime, Science-Fiction",
+        "status": "Ended",
+        "premiered": "1993-09-10",
+        "network": "FOX"
+    },
+    {
+        "id": 179,
+        "name": "Friends",
+        "genre": "Comedy, Romance",
+        "status": "Ended",
+        "premiered": "1994-09-22",
+        "network": "NBC"
+    },
+    {
+        "id": 180,
+        "name": "Dollhouse",
+        "genre": "Action, Science-Fiction",
+        "status": "Ended",
+        "premiered": "2009-02-13",
+        "network": "FOX"
+    },
+    {
+        "id": 181,
+        "name": "Caprica",
+        "genre": "Drama, Science-Fiction",
+        "status": "Ended",
+        "premiered": "2010-01-22",
+        "network": "Syfy"
+    },
+    {
+        "id": 182,
+        "name": "Warehouse 13",
+        "genre": "Drama, Science-Fiction, Mystery",
+        "status": "Ended",
+        "premiered": "2009-07-07",
+        "network": "Syfy"
+    },
+    {
+        "id": 183,
+        "name": "Smallville",
+        "genre": "Drama, Adventure, Science-Fiction",
+        "status": "Ended",
+        "premiered": "2001-10-16",
+        "network": "The CW"
+    },
+    {
+        "id": 184,
+        "name": "Dead Like Me",
+        "genre": "Drama, Comedy, Supernatural",
+        "status": "Ended",
+        "premiered": "2003-06-27",
+        "network": "Showtime"
+    },
+    {
+        "id": 185,
+        "name": "Xena: Warrior Princess",
+        "genre": "Action, Adventure, Fantasy",
+        "status": "Ended",
+        "premiered": "1995-09-04",
+        "network": "Syndication"
+    },
+    {
+        "id": 186,
+        "name": "The Adventures of Sinbad",
+        "genre": "Action, Adventure",
+        "status": "Ended",
+        "premiered": "1996-09-28",
+        "network": "Syndication"
+    },
+    {
+        "id": 187,
+        "name": "Wolverine and the X-Men",
+        "genre": "Action, Adventure, Science-Fiction",
+        "status": "Ended",
+        "premiered": "2008-09-08",
+        "network": "Nicktoons"
+    },
+    {
+        "id": 188,
+        "name": "Everwood",
+        "genre": "Drama, Family, Romance",
+        "status": "Ended",
+        "premiered": "2002-09-16",
+        "network": "The WB"
+    },
+    {
+        "id": 189,
+        "name": "Once a Thief",
+        "genre": "Comedy, Action",
+        "status": "Ended",
+        "premiered": "1997-09-15",
+        "network": "CTV"
+    },
+    {
+        "id": 190,
+        "name": "XIII: The Series",
+        "genre": "Action, Adventure",
+        "status": "Ended",
+        "premiered": "2011-04-20",
+        "network": "Showcase"
+    },
+    {
+        "id": 191,
+        "name": "Metal Hurlant Chronicles",
+        "genre": "Action, Adventure, Science-Fiction",
+        "status": "Ended",
+        "premiered": "2012-10-27",
+        "network": "France 4"
+    },
+    {
+        "id": 192,
+        "name": "Defying Gravity",
+        "genre": "Drama, Science-Fiction, Thriller",
+        "status": "Ended",
+        "premiered": "2009-08-02",
+        "network": "CTV"
+    },
+    {
+        "id": 193,
+        "name": "Charlie's Angels",
+        "genre": "Action, Crime",
+        "status": "Ended",
+        "premiered": "2011-09-22",
+        "network": "ABC"
+    },
+    {
+        "id": 194,
+        "name": "The Universe",
+        "genre": "Adventure, Family, Science-Fiction",
+        "status": "Ended",
+        "premiered": "2007-05-29",
+        "network": "H2"
+    },
+    {
+        "id": 195,
+        "name": "True Justice",
+        "genre": "Drama, Action, Crime",
+        "status": "Ended",
+        "premiered": "2012-03-30",
+        "network": "REELZ"
+    },
+    {
+        "id": 196,
+        "name": "Wolf Lake",
+        "genre": "Drama, Crime, Supernatural",
+        "status": "Ended",
+        "premiered": "2001-09-19",
+        "network": "UPN"
+    },
+    {
+        "id": 197,
+        "name": "Knight Rider",
+        "genre": "Action, Adventure, Science-Fiction",
+        "status": "Ended",
+        "premiered": "2008-02-17",
+        "network": "NBC"
+    },
+    {
+        "id": 198,
+        "name": "The Deep",
+        "genre": "Drama",
+        "status": "Ended",
+        "premiered": "2010-08-03",
+        "network": "BBC One"
+    },
+    {
+        "id": 199,
+        "name": "Tales from the Crypt",
+        "genre": "Comedy, Fantasy, Horror",
+        "status": "Ended",
+        "premiered": "1989-06-10",
+        "network": "HBO"
+    },
+    {
+        "id": 200,
+        "name": "Pacific Blue",
+        "genre": "Drama, Action, Crime",
+        "status": "Ended",
+        "premiered": "1996-03-02",
+        "network": "USA Network"
+    }
+]
