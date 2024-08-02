@@ -1,4 +1,5 @@
-from flask import Flask, jsonify 
+from flask import Flask, jsonify, send_file
+import json
   
 # creating a Flask app 
 app = Flask(__name__) 
@@ -6,7 +7,8 @@ app = Flask(__name__)
 # GET endpoint
 @app.route("/", methods=['GET'])
 def getData():
-    return None
+    # send the json data to the frontend
+    return send_file('tv_shows.json', mimetype='application/json')
 
 # POST endpoint
 
