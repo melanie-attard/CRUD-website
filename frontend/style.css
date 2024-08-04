@@ -1,0 +1,51 @@
+body {
+  padding: 5px 20px;
+  background-color: #f0f0f0;
+}
+#tableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  width: fit-content;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden; /* necessary for rounded corners to work */
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: rgb(3, 192, 192);
+}
+td {
+  position: relative; /* for the delete button to align correctly */
+}
+.button-container {
+  margin-top: 3px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #d32f2f;
+}
