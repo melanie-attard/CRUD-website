@@ -74,7 +74,7 @@ function addBtns(cell, showId, row) {
         fetch(`http://127.0.0.1:5000/delete/${showId}`, { method: "DELETE" })
           .then((response) => response.json())
           .then((result) => {
-            alert(result.message);
+            // alert(result.message);
             row.remove(); // remove the row from the table
           })
           .catch((error) => console.error("Error deleting data:", error));
