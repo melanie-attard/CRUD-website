@@ -82,9 +82,17 @@ function addBtns(cell, showId, row) {
     });
   };
 
-  buttonContainer.appendChild(deleteButton);
-
   // add an edit button
+  const editButton = document.createElement("button");
+  editButton.id = "editBtn";
+  editButton.textContent = "Edit";
+  editButton.onclick = function () {
+    console.log(`Edit button clicked for show ID: ${showId}`);
+  };
+
+  // append buttons to container
+  buttonContainer.appendChild(editButton);
+  buttonContainer.appendChild(deleteButton);
 
   // append the container to the cell
   cell.appendChild(buttonContainer);

@@ -28,9 +28,6 @@ def deleteEntry(showID):
         # remove the entry with the specified showID
         updated_data = [show for show in data if str(show.get('id')) != showID]
 
-        # Log the updated data after deletion
-        print(f"Data after deletion: {updated_data[:5]}")
-
         # save the updated data back to the JSON file
         with open('api/tv_shows.json', 'w') as file:
             json.dump(updated_data, file, indent=4)
