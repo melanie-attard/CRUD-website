@@ -14,6 +14,7 @@ table {
   overflow: hidden; /* necessary for rounded corners to work */
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
 }
 table,
 th,
@@ -46,7 +47,8 @@ button {
   color: white;
   cursor: pointer;
 }
-button:hover {
+button:hover,
+#addBtn:hover {
   background-color: #d32f2f;
 }
 button#editBtn {
@@ -96,7 +98,7 @@ button#editBtn:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 #popupBody {
-  padding: 20px 0;
+  padding: 20px 5px;
 }
 .popup-footer {
   display: flex;
@@ -125,11 +127,22 @@ button#editBtn:hover {
 form {
   margin: 10px;
 }
+label {
+  margin-right: 3px;
+}
 input {
   margin: 10px 0px;
+  background-color: rgba(3, 192, 192, 0.404);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 2px;
 }
 #submitBtn {
   margin-top: 10px;
   margin-left: 0px;
   padding: 5px 15px;
+}
+#addBtn {
+  background-color: #f44336;
+  padding: 10px;
 }

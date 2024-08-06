@@ -54,6 +54,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     closePopup();
   });
+
+  document.getElementById("addBtn").addEventListener("click", addNewShow);
 });
 
 function addBtns(cell, show, row) {
@@ -134,6 +136,10 @@ function addBtns(cell, show, row) {
 
   // append the container to the cell
   cell.appendChild(buttonContainer);
+}
+
+function addNewShow() {
+  console.log("Add Btn Clicked");
 }
 
 function openPopup({ title, body, confirmBtnText, onConfirm, isForm = false }) {
