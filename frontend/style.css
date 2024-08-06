@@ -122,3 +122,14 @@ button#editBtn:hover {
     transform: translateY(0);
   }
 }
+form {
+  margin: 10px;
+}
+input {
+  margin: 10px 0px;
+}
+#submitBtn {
+  margin-top: 10px;
+  margin-left: 0px;
+  padding: 5px 15px;
+}

@@ -8,6 +8,14 @@
         "network": "Disney XD"
     },
     {
+        "id": 2,
+        "name": "Downton Abbey",
+        "genre": "Drama, Family, Romance",
+        "status": "Ended",
+        "premiered": "2010-09-26",
+        "network": "ITV1"
+    },
+    {
         "id": 3,
         "name": "Girl Meets World",
         "genre": "Drama, Comedy, Family",
@@ -162,7 +170,7 @@
     {
         "id": 22,
         "name": "Talking Dead",
-        "genre": "Talk Show",
+        "genre": "",
         "status": "Running",
         "premiered": "2011-10-17",
         "network": "AMC"

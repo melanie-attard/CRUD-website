@@ -31,26 +31,28 @@
           <h2 id="popupTitle"></h2>
           <button id="closeButton">X</button>
         </div>
-        <div id="popupBody">
-          <!-- Form for adding/editing a show -->
-          <form id="form" style="display: none">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" /><br />
-            <label for="genre">Genre:</label>
-            <input type="text" id="genre" name="genre" /><br />
-            <label for="status">Status:</label>
-            <input type="text" id="status" name="status" /><br />
-            <label for="premiered">Premiered:</label>
-            <input type="text" id="premiered" name="premiered" /><br />
-            <label for="network">Network:</label>
-            <input type="text" id="network" name="network" /><br />
-            <button type="button" id="submitBtn">Save</button>
-          </form>
-        </div>
+        <div id="popupBody"></div>
         <div class="popup-footer">
-          <button id="confirmButton" style="display: none"></button>
+          <button id="confirmButton"></button>
         </div>
       </div>
+    </div>
+
+    <div id="formTemplate" style="display: none">
+      <!-- Form for adding/editing a show -->
+      <form id="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" /><br />
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" name="genre" /><br />
+        <label for="status">Status:</label>
+        <input type="text" id="status" name="status" /><br />
+        <label for="premiered">Premiered:</label>
+        <input type="text" id="premiered" name="premiered" /><br />
+        <label for="network">Network:</label>
+        <input type="text" id="network" name="network" /><br />
+        <button type="button" id="submitBtn">Save</button>
+      </form>
     </div>
   </body>
 </html>

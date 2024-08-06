@@ -92,7 +92,7 @@ function addBtns(cell, show, row) {
     // display the popup with a form
     openPopup({
       title: "Edit Show",
-      body: document.getElementById("popupBody").innerHTML,
+      body: document.getElementById("formTemplate").innerHTML,
       confirmBtnText: "",
       onConfirm: function () {
         // store the new values in a dictionary to send to the API
@@ -115,7 +115,6 @@ function addBtns(cell, show, row) {
         })
           .then((response) => response.json())
           .then((result) => {
-            alert(result.message);
             // update table row with new data
             row.cells[1].textContent = updatedShow.name;
             row.cells[2].textContent = updatedShow.genre;
@@ -145,7 +144,6 @@ function openPopup({ title, body, confirmBtnText, onConfirm, isForm = false }) {
   confirmHandler = onConfirm;
 
   if (isForm) {
-    document.getElementById("form").style.display = "block";
     confirmButton.style.display = "none";
 
     // add an event listener for the submit button
@@ -156,7 +154,6 @@ function openPopup({ title, body, confirmBtnText, onConfirm, isForm = false }) {
       closePopup();
     });
   } else {
-    document.getElementById("form").style.display = "none";
     confirmButton.style.display = "inline-block";
   }
 
