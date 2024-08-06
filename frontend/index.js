@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           // append delete button to the last cell
           if (index === array.length - 1) {
-            addBtns(cell, show.id, row);
+            addBtns(cell, show, row);
           }
         });
 
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-function addBtns(cell, showId, row) {
+function addBtns(cell, show, row) {
   // add a container for the buttons
   const buttonContainer = document.createElement("div");
   buttonContainer.className = "button-container";
@@ -65,13 +65,13 @@ function addBtns(cell, showId, row) {
   const deleteButton = document.createElement("button");
   deleteButton.textContent = "Delete";
   deleteButton.onclick = function () {
-    console.log(`Delete button clicked for show ID: ${showId}`);
+    console.log(`Delete button clicked for show ID: ${show.id}`);
     openPopup({
       title: "Confirm Deletion",
       body: "<p>Are you sure you want to delete this item?</p>",
       confirmBtnText: "Delete",
       onConfirm: function () {
-        fetch(`http://127.0.0.1:5000/delete/${showId}`, { method: "DELETE" })
+        fetch(`http://127.0.0.1:5000/delete/${show.id}`, { method: "DELETE" })
           .then((response) => response.json())
           .then((result) => {
             // alert(result.message);
@@ -87,7 +87,46 @@ function addBtns(cell, showId, row) {
   editButton.id = "editBtn";
   editButton.textContent = "Edit";
   editButton.onclick = function () {
-    console.log(`Edit button clicked for show ID: ${showId}`);
+    console.log(`Edit button clicked for show ID: ${show.id}`);
+
+    // display the popup with a form
+    openPopup({
+      title: "Edit Show",
+      body: document.getElementById("popupBody").innerHTML,
+      confirmBtnText: "",
+      onConfirm: function () {
+        // store the new values in a dictionary to send to the API
+        const updatedShow = {
+          id: show.id,
+          name: document.getElementById("name").value,
+          genre: document.getElementById("genre").value,
+          status: document.getElementById("status").value,
+          premiered: document.getElementById("premiered").value,
+          network: document.getElementById("network").value,
+        };
+
+        // call the update endpoint from the API
+        fetch(`http://127.0.0.1:5000/update/${show.id}`, {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(updatedShow),
+        })
+          .then((response) => response.json())
+          .then((result) => {
+            alert(result.message);
+            // update table row with new data
+            row.cells[1].textContent = updatedShow.name;
+            row.cells[2].textContent = updatedShow.genre;
+            row.cells[3].textContent = updatedShow.status;
+            row.cells[4].textContent = updatedShow.premiered;
+            row.cells[5].textContent = updatedShow.network;
+          })
+          .catch((error) => console.error("Error updating data:", error));
+      },
+      isForm: true,
+    });
   };
 
   // append buttons to container
@@ -98,12 +137,28 @@ function addBtns(cell, showId, row) {
   cell.appendChild(buttonContainer);
 }
 
-function openPopup({ title, body, confirmBtnText, onConfirm }) {
+function openPopup({ title, body, confirmBtnText, onConfirm, isForm = false }) {
   document.getElementById("popupTitle").textContent = title;
   document.getElementById("popupBody").innerHTML = body;
-  confirmButton.textContent = confirmBtnText;
 
+  confirmButton.textContent = confirmBtnText;
   confirmHandler = onConfirm;
+
+  if (isForm) {
+    document.getElementById("form").style.display = "block";
+    confirmButton.style.display = "none";
+
+    // add an event listener for the submit button
+    document.getElementById("submitBtn").addEventListener("click", function () {
+      if (confirmHandler) {
+        confirmHandler();
+      }
+      closePopup();
+    });
+  } else {
+    document.getElementById("form").style.display = "none";
+    confirmButton.style.display = "inline-block";
+  }
 
   popupOverlay.style.display = "flex";
 }

@@ -28,14 +28,27 @@
     <div id="popupOverlay">
       <div class="popup-content">
         <div class="popup-header">
-          <h2 id="popupTitle">Popup Title</h2>
+          <h2 id="popupTitle"></h2>
           <button id="closeButton">X</button>
         </div>
         <div id="popupBody">
-          <p>Popup body content.</p>
+          <!-- Form for adding/editing a show -->
+          <form id="form" style="display: none">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" /><br />
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre" /><br />
+            <label for="status">Status:</label>
+            <input type="text" id="status" name="status" /><br />
+            <label for="premiered">Premiered:</label>
+            <input type="text" id="premiered" name="premiered" /><br />
+            <label for="network">Network:</label>
+            <input type="text" id="network" name="network" /><br />
+            <button type="button" id="submitBtn">Save</button>
+          </form>
         </div>
         <div class="popup-footer">
-          <button id="confirmButton">Confirm</button>
+          <button id="confirmButton" style="display: none"></button>
         </div>
       </div>
     </div>
