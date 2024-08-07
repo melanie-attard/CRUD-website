@@ -1598,13 +1598,5 @@
         "status": "Ended",
         "premiered": "1996-03-02",
         "network": "USA Network"
-    },
-    {
-        "id": "201",
-        "name": "Test",
-        "genre": "Dummy",
-        "status": "TBD",
-        "premiered": "2024-08-07",
-        "network": "TVM"
     }
 ]
