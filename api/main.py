@@ -42,7 +42,8 @@ def addShow():
         with open('api/tv_shows.json', 'w') as file:
             json.dump(data, file, indent=4)
 
-        return jsonify({"message": f"Show {new_id} added successfully"}), 200
+        # return the id of the new show along with the success message
+        return jsonify({"message": f"Show {new_id} added successfully", "id": new_id}), 200
 
     except FileNotFoundError:
         return jsonify({"error": "File not found"}), 404

@@ -140,6 +140,59 @@ function addBtns(cell, show, row) {
 
 function addNewShow() {
   console.log("Add Btn Clicked");
+
+  openPopup({
+    title: "Add a New Show",
+    body: document.getElementById("formTemplate").innerHTML,
+    confirmBtnText: "",
+    onConfirm: function () {
+      // store the new values in a dictionary to send to the API
+      const show = {
+        id: null,
+        name: document.getElementById("name").value,
+        genre: document.getElementById("genre").value,
+        status: document.getElementById("status").value,
+        premiered: document.getElementById("premiered").value,
+        network: document.getElementById("network").value,
+      };
+
+      // call the update endpoint from the API
+      fetch(`http://127.0.0.1:5000/add`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(show),
+      })
+        .then((response) => response.json())
+        .then((result) => {
+          // update table with new data using the id returned by the server
+          show.id = result.id;
+          addRow(show);
+          console.log(`New show added with id ${show.id}`);
+        })
+        .catch((error) => console.error("Error updating data:", error));
+    },
+    isForm: true,
+  });
+}
+
+function addRow(show) {
+  const table = document.querySelector("#showsTable tbody");
+  const row = document.createElement("tr");
+
+  Object.values(show).forEach((text, index, array) => {
+    const cell = document.createElement("td");
+    cell.textContent = text;
+    row.appendChild(cell);
+
+    // append delete and edit buttons to the last cell
+    if (index === array.length - 1) {
+      addBtns(cell, show, row);
+    }
+  });
+
+  table.appendChild(row);
 }
 
 function openPopup({ title, body, confirmBtnText, onConfirm, isForm = false }) {
